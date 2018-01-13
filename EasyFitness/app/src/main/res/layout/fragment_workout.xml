@@ -1,0 +1,162 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#414346"
+    tools:context="com.example.ritik.easyfitness.workout">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/tw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:text="Workout Exercises"
+                android:textAllCaps="true"
+                android:textColor="@android:color/holo_green_light"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/exe1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/tw"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="18dp"
+                android:text="1. Jumping Jacks"
+                android:textSize="15sp"
+                android:textColor="@android:color/white"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/detail1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/exe1"
+                android:layout_below="@+id/exe1"
+                android:layout_margin="15dp"
+                android:layout_marginTop="15dp"
+                android:textColor="@android:color/white"
+                android:padding="0dp" />
+
+            <TextView
+                android:id="@+id/exe2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/exe1"
+                android:layout_below="@+id/detail1"
+                android:text="2. Push - Ups"
+                android:textColor="@android:color/white"
+                android:textSize="15sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/detail2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/exe2"
+                android:layout_below="@+id/exe2"
+                android:textColor="@android:color/white"
+                android:layout_margin="15dp"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:id="@+id/exe3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/exe2"
+                android:layout_below="@+id/detail2"
+                android:text="3. Squats"
+                android:textColor="@android:color/white"
+                android:textSize="15sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/detail3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/exe3"
+                android:layout_below="@+id/exe3"
+                android:textColor="@android:color/white"
+                android:layout_margin="15dp"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:id="@+id/exe4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/exe3"
+                android:layout_below="@+id/detail3"
+                android:text="4. Plank"
+                android:textColor="@android:color/white"
+                android:textSize="15sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/detail4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/exe4"
+                android:layout_below="@+id/exe4"
+                android:textColor="@android:color/white"
+                android:layout_margin="15dp"
+                android:layout_marginTop="15dp" />
+
+            <TextView
+                android:id="@+id/exe5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/exe4"
+                android:textColor="@android:color/white"
+                android:layout_below="@+id/detail4"
+                android:text="5. Crunches"
+                android:textSize="15sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/detail5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/exe5"
+                android:layout_below="@+id/exe5"
+                android:textColor="@android:color/white"
+                android:layout_margin="15dp"
+                android:layout_marginTop="15dp"/>
+
+            <Button
+                android:id="@+id/bw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Steps For Workout!"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/detail5"
+                android:layout_centerHorizontal="true" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/abc"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/detail5"
+                android:layout_marginBottom="-10dp"
+                android:layout_alignParentStart="true" />
+
+        </RelativeLayout>
+    </ScrollView>
+</FrameLayout>
+<!--android:layout_alignTop="@+id/bw"
+                -->
